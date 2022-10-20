@@ -1,11 +1,9 @@
-import './App.css';
-import EditorTexto from './components/EditorTexto';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import EditorTexto from './components/views/EditorTexto';
 
 function App() {
   return (
-    <div className="App">
-      <EditorTexto/>
-    </div>
+    <></>
   );
 }
 
